@@ -8,6 +8,7 @@ const APP_SHELL=[
     'css/style.css',
     'img/favicon.ico',
     'img/avatars/hulk.jpg',
+    'img/avatars/ironman.jpg',
     'img/avatars/spiderman.jpg',
     'img/avatars/thor.jpg',
     'img/avatars/wolverine.jpg',
