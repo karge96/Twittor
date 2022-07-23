@@ -44,7 +44,7 @@ self.addEventListener('fetch', e=>{
             return res;
         }else{
             return fetch(e.request).then(newRes=>{
-                return actualizaCacheDinamico(DYNAMYC_CACHE,e.request,newRes);
+                return actualizaCacheDinamico(DYNAMIC_CACHE,e.request,newRes);
             });
         }
     });
